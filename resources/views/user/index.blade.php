@@ -16,8 +16,9 @@
         <hr>
 
 
-
+       
             @foreach($users as $user)
+             <div class="row row-cols-1">
             <div class="profile-user col-md-8">
                 @if($user->image)
                     <div class="container-avatar">
@@ -46,7 +47,8 @@
                     {{$users->links()}}
             
         </div>
-    
+        <div class="clearfix"></div> 
+</div>
     </div>
     
 </div>
