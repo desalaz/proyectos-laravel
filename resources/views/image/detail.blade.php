@@ -61,7 +61,7 @@
                             </button>
 
                             <!-- The Modal -->
-                            <div class="modal" id="myModal">
+                        <div class="modal" id="myModal">
                             <div class="modal-dialog">
                                 <div class="modal-content">
 
@@ -84,7 +84,7 @@
 
                                 </div>
                             </div>
-                            </div>
+                         </div>
 
                     </div>
                     @endif
